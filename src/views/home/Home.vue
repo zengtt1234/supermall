@@ -222,10 +222,11 @@ export default {
     },
     loadMore(){
       this.getHomeGoods(this.currentType);
+      //对scroll的滚动范围进行刷新
       this.$refs.scroll.scroll.refresh();
     }
   }
-  
+
 }
 </script>
 <style scoped>
