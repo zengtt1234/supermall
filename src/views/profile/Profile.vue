@@ -1,13 +1,126 @@
 <template>
   <div>
-    <h2>我的</h2>
+    <scroll class="content">
+      <h2>我的</h2>
+      <ul>
+        <li>我的内容1</li>
+        <li>我的内容2</li>
+        <li>我的内容3</li>
+        <li>我的内容4</li>
+        <li>我的内容5</li>
+        <li>我的内容6</li>
+        <li>我的内容7</li>
+        <li>我的内容8</li>
+        <li>我的内容9</li>
+        <li>我的内容10</li>
+        <li>我的内容11</li>
+        <li>我的内容12</li>
+        <li>我的内容13</li>
+        <li>我的内容14</li>
+        <li>我的内容15</li>
+        <li>我的内容16</li>
+        <li>我的内容17</li>
+        <li>我的内容18</li>
+        <li>我的内容19</li>
+        <li>我的内容20</li>
+        <li>我的内容21</li>
+        <li>我的内容22</li>
+        <li>我的内容23</li>
+        <li>我的内容24</li>
+        <li>我的内容25</li>
+        <li>我的内容26</li>
+        <li>我的内容27</li>
+        <li>我的内容28</li>
+        <li>我的内容29</li>
+        <li>我的内容30</li>
+        <li>我的内容31</li>
+        <li>我的内容32</li>
+        <li>我的内容33</li>
+        <li>我的内容34</li>
+        <li>我的内容35</li>
+        <li>我的内容36</li>
+        <li>我的内容37</li>
+        <li>我的内容38</li>
+        <li>我的内容39</li>
+        <li>我的内容40</li>
+        <li>我的内容41</li>
+        <li>我的内容42</li>
+        <li>我的内容43</li>
+        <li>我的内容44</li>
+        <li>我的内容45</li>
+        <li>我的内容46</li>
+        <li>我的内容47</li>
+        <li>我的内容48</li>
+        <li>我的内容49</li>
+        <li>我的内容50</li>
+        <li>我的内容51</li>
+        <li>我的内容52</li>
+        <li>我的内容53</li>
+        <li>我的内容54</li>
+        <li>我的内容55</li>
+        <li>我的内容56</li>
+        <li>我的内容57</li>
+        <li>我的内容58</li>
+        <li>我的内容59</li>
+        <li>我的内容60</li>
+        <li>我的内容61</li>
+        <li>我的内容62</li>
+        <li>我的内容63</li>
+        <li>我的内容64</li>
+        <li>我的内容65</li>
+        <li>我的内容66</li>
+        <li>我的内容67</li>
+        <li>我的内容68</li>
+        <li>我的内容69</li>
+        <li>我的内容70</li>
+        <li>我的内容71</li>
+        <li>我的内容72</li>
+        <li>我的内容73</li>
+        <li>我的内容74</li>
+        <li>我的内容75</li>
+        <li>我的内容76</li>
+        <li>我的内容77</li>
+        <li>我的内容78</li>
+        <li>我的内容79</li>
+        <li>我的内容80</li>
+        <li>我的内容81</li>
+        <li>我的内容82</li>
+        <li>我的内容83</li>
+        <li>我的内容84</li>
+        <li>我的内容85</li>
+        <li>我的内容86</li>
+        <li>我的内容87</li>
+        <li>我的内容88</li>
+        <li>我的内容89</li>
+        <li>我的内容90</li>
+        <li>我的内容91</li>
+        <li>我的内容92</li>
+        <li>我的内容93</li>
+        <li>我的内容94</li>
+        <li>我的内容95</li>
+        <li>我的内容96</li>
+        <li>我的内容97</li>
+        <li>我的内容98</li>
+        <li>我的内容99</li>
+        <li>我的内容100</li>
+      </ul>
+    </scroll>
+    
   </div>
 </template>
 <script>
+import Scroll from 'components/common/scroll/scroll'
 export default {
-  name:"Profile"
+  name:"Profile",
+  components:{
+    Scroll
+  }
 }
 </script>
 <style scoped>
-
+.content{
+    height: 300px;
+    overflow: hidden;
+    background: red;
+  }
 </style>
